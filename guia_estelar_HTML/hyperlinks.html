@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hyperlinks</title>
+  <style>
+    .content{
+      background-color: red;
+      font-size: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+    Hyperlinks - Elemento Âncora: <a>
+
+      + Anatomia
+
+      + Atributos:
+        - globais
+        - href
+          - para onde iremos quando clicamos no link?
+            - url copleta
+            - fragmento 
+            - email 
+            - telefone 
+            - outros
+        - dowload
+        - target
+          -_self(padrão)
+          -_blank
+    -->
+  <div>
+    <p>Encontre-me:</p>
+    <ul>
+      <li><a href="https://github.com/LuizFlavioTB" target="_blank">Website</a></li>
+      <li><a href="mailto:luiflaviotb@gmail.com">Email</a></li>
+      <li><a href="tel:+5553999636273">Telefone </a></li>
+    </ul>
+  </div>
+<div>
+  <p>Saiba mais:</p>
+    <ul>
+      <li><a href="#about">Sobre mim</a></li>
+      <li><a href="#history">História</a></li>
+      <li><a href="#works">Trabalhos </a></li>
+    </ul>
+
+    <h1 id="about">Sobre mim</h1>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, eveniet modi! Dignissimos praesentium fuga, officiis quo fugiat unde officia dicta qui? Assumenda, reprehenderit odio? Molestiae reprehenderit et aspernatur error illo?
+
+    <h2 id="history">História</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus soluta ipsa est asperiores fuga aliquam eos ex autem rerum quidem laudantium ea totam, ab fugit corporis a temporibus! Libero!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aliquid doloremque labore culpa optio odit beatae error adipisci suscipit quaerat, nihil ullam, quidem accusamus distinctio numquam tenetur perspiciatis eligendi itaque.
+    <h2 id="works">Trabalhos</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque aut sit explicabo optio, id possimus dolore, et iusto nihil asperiores hic? Debitis architecto error atque adipisci ipsa, iusto repellat!
+lor
+</div>
+<div>
+  <!--
+    Conteúdo dos hyperlinks
+
+    - qualquer conteúdo, tudo que estiver dentro da tag "a" 
+    levará para o link dentro do href
+  -->
+  <p class="content" >Conteúdo dos hyperlinks
+
+    - qualquer conteúdo, tudo que estiver dentro da tag "a" 
+    levará para o link dentro do href</p>
+
+  <a href="https://google.com" title="Ir para o google">
+    <h1>Google</h1>
+    <p>Qualque escrita dentro da tag</p>
+    <p>inclsive aqui e na imagem abaixo:</p>
+    <img width="400" height="200" src="https://source.unsplash.com/random">
+  </a>
+</div>
+</body>
+
+</html>
