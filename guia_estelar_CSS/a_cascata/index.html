@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A cascata</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Título</h1>
+    <p>É sempre lido de cima para baixo</p>
+    <p>Se tiver duas estilizações para &lt;h1&gt;</p>
+    <p>sempre vai ler e dominar a entrada do último estilo.</p>
+  </div>
+
+  <div>
+    <h1 style="color: orange;">É levado em conta 3 fatores</h1>
+    <ol>
+      <li>Origem do estilo</li>
+      <li>Espicificidade</li>
+      <li>Importância</li>
+    </ol>
+
+    <h2 class="class1">### Origem do estilo:</h2>
+    <p>inline &gt; tag style &gt; tag link</p>
+
+    <br><br><br>
+
+    <h2 id="idone">### Espicificidade:</h2>
+
+      <p>É um calculo matemático, onde, cada tipo de seletor <br>
+      e origem do estilo, possuem valores a serem considerados.</p>
+      <p>0. Universal selector, combinators e negation pseudo-class (:not())</p>
+      <p>1. Element type selector e pseudo-elements (::before, ::after)</p>
+      <p>10. Classes e atribute selectors ([type="radio"])</p>
+      <p>100. ID selector</p>
+      <p>1000. Inline</p>
+
+    <br><br><br>
+
+    <h2>### A regra !important:</h2>
+
+  </div>
+</body>
+
+</html>

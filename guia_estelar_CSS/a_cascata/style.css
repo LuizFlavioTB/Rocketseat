@@ -1,0 +1,15 @@
+#idone {
+  color: blue;
+}
+
+.class1 {
+  color: gray;
+}
+
+h1 {
+  color: blue !important;
+}
+
+* {
+  color: green;
+}
