@@ -5,9 +5,12 @@
 .class1 {
   color: gray;
 }
+p {
+  color: black;
+}
 
 h1 {
-  color: blue !important;
+  color: blue;
 }
 
 * {
