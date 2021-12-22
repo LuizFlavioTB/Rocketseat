@@ -1,4 +1,4 @@
-.c1 {
+.c1{
   color: blue;
 }
 td {
@@ -18,4 +18,12 @@ strong{
 
 .c4 {
   color: red;
+}
+
+h4{
+  color: blue
+}
+
+div{
+  font-size: 80%;
 }
