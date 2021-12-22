@@ -27,3 +27,12 @@ h4{
 div{
   font-size: 80%;
 }
+
+.box {
+  height: 300px;
+  width: 400px;
+  background-image: url(http://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-position: top 50px;
+
+}
