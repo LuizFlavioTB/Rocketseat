@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display block inline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ol>
+    <li>
+      <h2 class="c1">Box model</h2>
+      <ul>
+        <li>Fundamental para fazer layouts para web</li>
+        <li>Maior facilidade para aplicar o CSS</li>
+      </ul>
+    </li>
+    <li>
+      <h2 class="c1">O que é?</h2>
+      <ul>
+        <li>Uma caixa retangular</li>
+        <li>Possui propriedades de uma caixa 2D</li>
+      </ul><br>
+      <table>
+        <thead>
+        <tbody>
+          <tr>
+            <td>Tamanho (altura x largura)</td>
+            <td>width | height</td>
+          </tr>
+          <tr>
+            <td>Conteúdo</td>
+            <td>content</td>
+          </tr>
+          <tr>
+            <td>Bordas</td>
+            <td>border</td>
+          </tr>
+          <tr>
+            <td>Preenchimento interno</td>
+            <td>padding</td>
+          </tr>
+          <tr>
+            <td>Espaços fora da caixa</td>
+            <td>margin</td>
+          </tr>
+        </tbody>
+        </thead>
+      </table>
+      <h4>*Cada elemento na sua página será considerado uma caixa*</h4>
+    </li>
+    <li>
+      <h2 class="c1">Box sizing</h2>
+      <p>Como será calculado o tamanho total da caixa?</p>
+      <p>Será calculado pelo "conteúdo da caixa"</p>
+      <h4>- content-box|border-box</h4>
+      <h4>Para usar no <strong>CSS</strong>-> box-sizing: border-box;</h4>
+      <div>
+        CSS é incrível!
+      </div>
+    </li>
+    <li>
+      <h2 class="c1">Display: block <strong>VS</strong> Display: inline</h2>
+      <ul>
+        <li>Como as caixas se comportam em relação à outras caixas</li>
+        <li>Comportamento externo das caixas</li>
+      </ul><br>
+      <table>
+        <thead>
+          <tr>
+            <th class="c2">**BLOCK**</th>
+            <th class="c3">**INLINE**</th>
+          </tr>
+        <tbody>
+          <tr>
+            <td class="c2">ocupa toda a linha colocando o próximo elemento abaixo desse</td>
+            <td class="c3">elemento ao lado do outro</td>
+          </tr>
+          <tr>
+            <td class="c2">width e height são respeitados</td>
+            <td class="c3">width e height não funcionam</td>
+          </tr>
+          <tr>
+            <td class="c2">padding, margin e border irão funcionar normalmente</td>
+            <td class="c3">somente valores horizontais de margin, padding e border</td>
+          </tr>
+        </tbody>
+        </thead>
+      </table>
+      <h3>Exemplos:</h3>
+      <p class="c2"><Strong>Block: </Strong>&lt;p&gt; &lt;section&gt; todos os headings &lt;h1, h2, h3...&gt;,</p>
+      <p class="c2"><Strong>Inline: </Strong>&lt;a&gt; &lt;strong&gt; &lt;span&gt; &lt;em&gt;</p>
+    </li>
+  </ol>
+</body>
+
+</html>
