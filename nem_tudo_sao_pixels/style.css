@@ -29,8 +29,8 @@ div{
 }
 
 .box {
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
   background-image: url(http://source.unsplash.com/random);
   background-repeat: no-repeat;
   background-position: top 50px;
