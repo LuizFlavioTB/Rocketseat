@@ -1,0 +1,11 @@
+h3 {
+  color: blue;
+}
+h2 {
+  color: rgb(225, 0, 0, 60%)
+}
+.c1 h1 {
+  display: inline;
+  color: yellowgreen;
+  border: 2px solid red;
+}
