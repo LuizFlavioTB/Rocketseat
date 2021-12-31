@@ -27,7 +27,7 @@ div {
   background-size: contain;
   background-origin: padding-box;
   background-clip: content-box;
-  background-attachment: fixed;
+  background-attachment: fixec;
 }
 
 
